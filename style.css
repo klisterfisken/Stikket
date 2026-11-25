@@ -2,6 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   text-align: center;
+  background-color: #e9defc;
 }
 
 .container {
@@ -51,7 +52,8 @@ p {
 }
 
 header {
-  background-image: url("./img/stikket-background-image.jpg");
+  background-color: #e9defc; /* samma färg som bilden, syns medan den laddar */
+  background-image: url("./img/stikket-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
